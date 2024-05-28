@@ -13,7 +13,7 @@ func main() {
 	checkNilError(err)
 	length,err:= io.WriteString(file,content)
 	checkNilError(err)
-	fmt.Println("The lenght of the file is",length)
+	fmt.Println("The lengTH of the file is",length)
 
 	defer file.Close()
 	readFile("./mygoFile.txt")
